@@ -1,0 +1,3389 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h2,h3,{
+	font-family: 'Oxygen', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+@media screen and (min-width: 1366px) {
+
+	/* ** Header **/
+
+	header#mainHeader {
+		width: 100%;
+		height: 750px;
+		position: relative;
+		background: url(../images/header-bg8.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 600px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 1346px;
+		height: 750px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 1346px;
+		height: 400px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop{
+		width: 1346px;
+		height: : 50px;
+		position: relative;
+	}
+
+	ul#ulTopLeft{
+	 	list-style-type: none;
+		display: inline-block;	
+	 	float: left;
+	}
+
+	ul#ulTopLeft li{
+		display: inline-block;
+		line-height: 50px;
+		border-right: 1px solid #ffffff;
+		padding: 0 10px;
+	}
+
+	ul#ulTopLeft li:first-child{
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child{
+		border-right: 0;
+	}
+
+
+	ul#ulTopLeft li a{
+		color: #ffffff; 
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	div#topRight {
+		height: 50px;
+		position: relative;
+		float: right;
+	}
+
+	div.topContactLogo{
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+		float: left;
+		margin-left: 25px;
+	}
+
+	div.topContactText{
+		height: 50px;
+		line-height: 50px;
+		float: left;
+		margin-left: 25px;
+		color: #ffffff;
+	}
+		/** Nav **/
+	div#navMobileButton {
+		display: none;
+	}
+
+	div#navMobileButton:hover {
+		display: none;
+	}
+
+	ul#ulNavMobile {
+		display: none;
+	}
+
+	ul#ulNavMobile li {
+		display: none;
+	}
+
+	ul#ulNavMobile li:last-child{
+		display: none;
+	}
+
+	ul#ulNavMobile li a{
+		display: none;
+	}
+
+	ul#ulNavMobile li a:hover{
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		height: 80px;
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		top: 50px;
+	}
+
+	div#navContainer {
+		width: 1346px;
+		height: 80px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Charmonman', cursive;
+		color: #ffffff;
+		font-size: 30px;
+		line-height: 80px;
+		display: inline;
+		float: left;
+	}
+
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a{
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover{
+		font-weight: bold;
+	}
+
+	div#headerText{
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 80px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 60px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 20px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 2px 2px 2px #000000;
+	}
+
+	div#headerButtons{
+		margin-top: 20px;
+	}
+
+	div#headerButtons a{
+		line-height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons a:first-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	div#headerButtons a:last-child{
+		margin-left: 20px;
+		color: #ffffff;
+	}
+
+	div#headerButtons a:last-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	/* *** Section Başlangıcı *** */
+
+	/* *** 1. Section *** */
+	section.limitedSec {
+		width: 1346px;
+		height:600px;
+		position: relative;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	section.limitedSec h1, section.limitedSec h2{
+		text-align: center;
+	}
+
+	section.limitedSec img {
+		width: 663px;
+		margin-top: 50px;
+		border: 2px solid #000000;
+		padding: 5px;
+		box-sizing: border-box;
+		float: left;
+	}
+
+	section.limitedSec article{
+		width: 663px;
+		margin-top: 50px;
+		float: right;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	section.limitedSec article p{
+		margin-top: 20px;
+		text-align: justify;
+		font-size: 13pt;
+	}
+
+
+	section.limitedSec h3{
+		text-align: center;
+		margin-top: 7px;
+		margin-bottom: 7px;
+		font-size: 25pt;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+
+	/* *** 2. Section *** */
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		margin-top: 50px;
+	}
+
+	section.unlimitedSec div#menuContainer{
+		width: 1346px;
+		height: 640px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+	}
+
+	section.unlimitedSec div#menuContainer img{
+		width: 300px ;
+		height: 300px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec div#menuContainer img:hover{
+		transform: scale(1.05);
+	}
+	section.unlimitedSec h4{
+		text-align: center;
+		margin-top: 2px;
+		font-size: 25pt;
+		padding-top: 12px;
+		padding-bottom: 5px;
+	}
+
+
+	/* *** 2.1. Section *** */
+
+	section.unlimitedSec2 {
+		width: 100%;
+		position: relative;
+		margin-top: 50px;
+	}
+
+
+	section.unlimitedSec2 div#menuContainer2{
+		width: 1346px;
+		height: 640px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img{
+		width: 300px ;
+		height: 300px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img:hover{
+		transform: scale(1.05);
+	}
+
+	/* *** 3. Section *** */
+
+	section.limitedSec2 div#teamContainer h3{
+		text-align: center;
+		margin-bottom: 5px; 
+		font-size: 25pt;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin:auto;
+	}
+
+	section.limitedSec2 div#teamContainer h2{
+		text-align: center; 
+		font-size: 20pt;
+
+	}
+
+	section.limitedSec2 div#teamContainer {
+		width: 1200px;
+		height: 700px;
+		position: relative;
+		margin: auto;
+	}
+
+
+	section.limitedSec2 div#teamContainer div.teamTile{
+		width: 350px;
+		height: 525px;
+		position: relative;
+		float: left;
+		margin-left: 37.5px;
+		overflow: hidden;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile img{
+		width: 350px;
+		height: 480px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover{
+		width: 350px;
+		height: 480px;
+		background: red;
+		position: absolute;
+		top: 0px;
+		left: -350px;
+		transition: all .5s ease;
+		background: url(../Images/);
+		opacity: 0.7;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile:hover div.teamHover{
+		left: 0;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover div.teamText{
+		background: #000000;
+		color: #ffffff;
+		line-height: 60px;
+		margin-top: 202.5px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	/* *** 4. Section *** */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 1346px;
+		height: 750px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 673px;
+		height: 750px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		float: left;
+		color: #ffffff;
+		text-align: center;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2{
+		color: #ffffff;
+		font-size: 40pt;
+		line-height: 80px;
+		margin: 70px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h3{
+		font-size: 30pt;
+		line-height: 60px;
+		margin: 30px;
+		margin-top: 20px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p{
+		font-family: 'Roboto', sans-serif;
+		width: 500px;
+		font-size: 20pt; 
+		line-height: 32px;
+		margin: auto;
+		margin-top: 20px;
+		text-shadow: 1px 1px 1px #000000;
+		font-weight: bold;
+	}
+
+	/* ** Hakkında Başlangıç **/
+
+	section.contentContainer {
+		width: 300px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	section.contentContainer h1 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		line-height: 25px; 
+	}
+
+	section.contentContainer div.managerBox {
+		width: 200px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img{
+		width: 200px;
+		height: 200px;
+		margin: auto;
+	}
+
+	/* ** İletişim Başlangıç **/
+
+	section.contentContainer  div.contactParts{
+		width: 640px;
+		position: relative;
+		float: left;
+		margin-left: 22px;
+
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 70px;
+	}
+
+	section.contentContainer  div.contactParts input.input{
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align:center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft{
+		float: left;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputRight{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft2 {
+		float: left;
+		border-radius: 10px;
+	}
+		
+	section.contentContainer  div.contactParts input.inputRight2{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts textarea {
+		width: 640px;
+		height: 200px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit {
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: #e74c3c;
+		color: #ffffff;
+		border: 1px solid #e74c3c;	
+	}
+
+	section.contentContainer iframe {
+		margin-top: 20px;
+		background: rgba(0,0,0,0.5);
+		position: relative;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+	}
+
+	/* ** YÖNETİM ** */
+
+	/* ** ÜRÜNLER ** */
+	section.contentContainer section.unlimitedSec div#menuContainer {
+		margin-top: 40px;
+	}
+
+	/* ** Footer Başlangıç ** */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../Images/footer-bg2.jpg);
+	}
+
+	footer div#footerContainer{
+		width: 1200px;
+		position: relative;
+		margin: auto;
+		padding: 100px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 400px;
+		position: relative;
+		float: left;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	footer div#footerContainer div.footerBox h1{
+		font-family: 'Charmonman', cursive;
+		font-size: 40pt;
+		margin-top: 35px;
+	}
+
+	footer div#footerContainer div.footerBox h2{
+		font-size: 30pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 350px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p{
+		text-align:left;
+		line-height: 30px;
+		width: 350px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input{
+		width: 350px;
+		height: 40px;
+		margin-top: 20px;
+		font-size: 15pt;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 1365px) {
+
+	/* ** Header **/
+
+	header#mainHeader {
+		width: 100%;
+		height: 750px;
+		position: relative;
+		background: url(../images/header-bg8.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 400px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 940px;
+		height: 750px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 940px;
+		height: 400px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop{
+		width: 940px;
+		height: : 50px;
+		position: relative;
+	}
+
+	ul#ulTopLeft{
+	 	list-style-type: none;
+		display: inline-block;	
+	 	float: left;
+	}
+
+	ul#ulTopLeft li{
+		display: inline-block;
+		line-height: 50px;
+		border-right: 1px solid #ffffff;
+		padding: 0 10px;
+	}
+
+	ul#ulTopLeft li:first-child{
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child{
+		border-right: 0;
+	}
+
+
+	ul#ulTopLeft li a{
+		color: #ffffff; 
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	div#topRight {
+		height: 50px;
+		position: relative;
+		float: right;
+	}
+
+	div.topContactLogo{
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+		float: left;
+		margin-left: 25px;
+	}
+
+	div.topContactText{
+		height: 50px;
+		line-height: 50px;
+		float: left;
+		margin-left: 25px;
+		color: #ffffff;
+	}
+	/** Nav **/
+	div#navMobileButton {
+		display: none;
+	}
+
+	div#navMobileButton:hover {
+		display: none;
+	}
+
+	ul#ulNavMobile {
+		display: none;
+	}
+
+	ul#ulNavMobile li {
+		display: none;
+	}
+
+	ul#ulNavMobile li:last-child{
+		display: none;
+	}
+
+	ul#ulNavMobile li a{
+		display: none;
+	}
+
+	ul#ulNavMobile li a:hover{
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		height: 80px;
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		top: 50px;
+	}
+
+	div#navContainer {
+		width: 940px;
+		height: 80px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Charmonman', cursive;
+		color: #ffffff;
+		font-size: 30px;
+		line-height: 80px;
+		display: inline;
+		float: left;
+	}
+
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a{
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover{
+		font-weight: bold;
+	}
+
+	div#headerText{
+		margin-top: 200px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 80px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 60px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 20px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 2px 2px 2px #000000;
+	}
+
+	div#headerButtons{
+		margin-top: 20px;
+	}
+
+	div#headerButtons a{
+		line-height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons a:first-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	div#headerButtons a:last-child{
+		margin-left: 20px;
+		color: #ffffff;
+	}
+
+	div#headerButtons a:last-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	/* *** Section Başlangıcı *** */
+
+	/* *** 1. Section *** */
+	section.limitedSec {
+		width: 940px;
+		height:600px;
+		position: relative;
+		margin: auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2{
+		text-align: center;
+	}
+
+	section.limitedSec img {
+		width: 663px;
+		margin-top: 50px;
+		border: 2px solid #000000;
+		padding: 5px;
+		box-sizing: border-box;
+
+	}
+
+	section.limitedSec article{
+		width: 663px;
+		margin-top: 50px;
+		margin: auto;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	section.limitedSec article p{
+		margin-top: 20px;
+		text-align: justify;
+		font-size: 13pt;
+	}
+
+
+	section.limitedSec h3{
+		text-align: center;
+		margin-top: 70px;
+		font-size: 25pt;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+
+	/* *** 2. Section *** */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		margin-top: 500px;
+	}
+
+	section.unlimitedSec div#menuContainer{
+		width: 940px;
+		height: 500px;
+		position: relative;
+		margin-left: 0px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec div#menuContainer img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec div#menuContainer img:hover{
+		transform: scale(1.05);
+	}
+	section.unlimitedSec h4{
+		text-align: center;
+		margin-top: 50px;
+		font-size: 25pt;
+	}
+
+
+	/* *** 2.1. Section *** */
+
+	section.unlimitedSec2 {
+		width: 100%;
+		position: relative;
+		margin-top: 20px;
+	}
+
+
+	section.unlimitedSec2 div#menuContainer2{
+		width: 940px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img:hover{
+		transform: scale(1.05);
+	}
+
+	/* *** 3. Section *** */
+
+	section.limitedSec2 div#teamContainer h3{
+		text-align: center;
+		margin-bottom: 5px; 
+		font-size: 25pt;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin:auto;
+	}
+
+	section.limitedSec2 div#teamContainer h2{
+		text-align: center; 
+		font-size: 20pt;
+	}
+
+	section.limitedSec2 div#teamContainer {
+		width: 940px;
+		position: relative;
+		margin: auto;
+		height: 130px;
+	}
+
+
+	section.limitedSec2 div#teamContainer div.teamTile{
+		width: 300px;
+		height: 525px;
+		position: relative;
+		float: left;
+		margin-left: 10px;
+		overflow: hidden;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile img{
+		width: 300px;
+		height: 450px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover{
+		width: 300px;
+		height: 450px;
+		background: red;
+		position: absolute;
+		top: 0px;
+		left: -300px;
+		transition: all .5s ease;
+		background: url(../Images/);
+		opacity: 0.7;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile:hover div.teamHover{
+		left: 0;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover div.teamText{
+		background: #000000;
+		color: #ffffff;
+		line-height: 60px;
+		margin-top: 202.5px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	/* *** 4. Section *** */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 943px;
+		height: 650px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 470px;
+		height: 700px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		float: left;
+		color: #ffffff;
+		text-align: center;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2{
+		color: #ffffff;
+		font-size: 35pt;
+		line-height: 60px;
+		margin-top: 75px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h3{
+		font-size: 20pt;
+		line-height: 50px;
+		margin: 30px;
+		margin-top: 20px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p{
+		font-family: 'Roboto', sans-serif;
+		width: 450px;
+		font-size: 18pt; 
+		line-height: 28px;
+		margin: auto;
+		margin-top: 20px;
+		text-shadow: 1px 1px 1px #000000;
+		font-weight: bold;
+	}
+
+	/* ** Hakkında Başlangıç **/
+
+	section.contentContainer {
+		width: 940px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	section.contentContainer h1 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		line-height: 20px; 
+	}
+
+	section.contentContainer div.managerBox {
+		width: 200px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img{
+		height: 300px;
+		margin: auto;
+	}
+
+	/* ** İletişim Başlangıç **/
+
+	section.contentContainer  div.contactParts{
+		width: 640px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 90px;
+	}
+
+	section.contentContainer  div.contactParts input.input{
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align:center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft{
+		float: left;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputRight{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft2 {
+		float: left;
+		border-radius: 10px;
+	}
+		
+	section.contentContainer  div.contactParts input.inputRight2{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts textarea {
+		width: 640px;
+		height: 200px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit {
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: #e74c3c;
+		color: #ffffff;
+		border: 1px solid #e74c3c;	
+	}
+
+	section.contentContainer iframe {
+		margin-top: 20px;
+		background: rgba(0,0,0,0.5);
+		position: relative;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+	}
+
+	/* ** YÖNETİM ** */
+
+	/* ** ÜRÜNLER ** */
+	section.contentContainer section.unlimitedSec div#menuContainer {
+		margin-top: 40px;
+	}
+
+	/* ** Footer Başlangıç ** */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../Images/footer-bg2.jpg);
+	}
+
+	footer div#footerContainer{
+		width: 940px;
+		position: relative;
+		margin: auto;
+		padding: 100px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 313.3px;
+		position: relative;
+		float: left;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	footer div#footerContainer div.footerBox h1{
+		font-family: 'Charmonman', cursive;
+		font-size: 40pt;
+		margin-top: 35px;
+	}
+
+	footer div#footerContainer div.footerBox h2{
+		font-size: 30pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p{
+		text-align:left;
+		line-height: 30px;
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input{
+		width: 300px;
+		height: 40px;
+		margin-top: 20px;
+		font-size: 15pt;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+
+	/* ** Header **/
+
+	header#mainHeader {
+		width: 100%;
+		height: 500px;
+		position: relative;
+		background: url(../images/header-bg8.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 700px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 700px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop{
+		width: 700px;
+		height: : 40px;
+		position: relative;
+	}
+
+	ul#ulTopLeft{
+	 	list-style-type: none;
+		display: inline-block;	
+	 	float: left;
+	}
+
+	ul#ulTopLeft li{
+		display: inline-block;
+		line-height: 40px;
+		border-right: 1px solid #ffffff;
+		padding: 0 10px;
+	}
+
+	ul#ulTopLeft li:first-child{
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child{
+		border-right: 0;
+	}
+
+
+	ul#ulTopLeft li a{
+		color: #ffffff; 
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	div#topRight {
+		height: 40px;
+		position: relative;
+		float: right;
+	}
+
+	div.topContactLogo{
+		width: 10px;
+		height: 10px;
+		margin-top: 3px;
+		float: left;
+		margin-left: 16px;
+	}
+
+	div.topContactText{
+		height: 5px;
+		line-height: 10px;
+		float: left;
+		margin-left: 35px;
+		color: #ffffff;
+		margin-top: 17px;
+		font-size: 11pt;
+	}
+
+	/* ** Nav ** */
+
+	nav {
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		top: 40px;
+	}
+
+	div#navContainer {
+		width: 700px;
+		height: 60px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Charmonman', cursive;
+		color: #ffffff;
+		font-size: 30px;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+
+	/* ** Desktop Nav
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a{
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover{
+		font-weight: bold;
+	}
+
+	div#headerText{
+		margin-top: 100px;
+		color: #ffffff;
+	}
+	*/
+
+	/* *** Nav Mobile *** */
+
+	div#navMobileButton {
+		width: 40px;
+		height: 40px;
+		position: relative;
+		float: right;
+		background: url(../Images/menu-icon.png);
+		margin-top: 10px;
+	}
+
+	div#navMobileButton:hover {
+		opacity: 0.7;
+	}
+
+	ul#ulNavMobile {
+		width: 700px;
+		position: absolute;
+		top: 60px;
+		background: transparent;
+		display: none;
+	}
+
+	ul#ulNavMobile li {
+		text-align: center;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+	}
+
+	ul#ulNavMobile li:last-child{
+		border: 0;
+	}
+
+	ul#ulNavMobile li a{
+		width: 700px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+
+	ul#ulNavMobile li a:hover{
+		opacity: 0.7
+	}
+
+	div#headerText {
+		margin-top: 120px;
+	}
+
+	div#headerText h1 {
+		line-height: 80px;
+		font-size: 30px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 60px;
+		font-size: 30px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 18px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 2px 2px 2px #000000;
+	}
+
+	div#headerButtons{
+		margin-top: 20px;
+	}
+
+	div#headerButtons a{
+		line-height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons a:first-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	div#headerButtons a:last-child{
+		margin-left: 20px;
+		color: #ffffff;
+	}
+
+	div#headerButtons a:last-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	/* *** Section Başlangıcı *** */
+
+	/* *** 1. Section *** */
+	section.limitedSec {
+		width: 700px;
+		height:600px;
+		position: relative;
+		margin: auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2{
+		text-align: center;
+	}
+
+	section.limitedSec img {
+		width: 663px;
+		margin-top: 50px;
+		border: 2px solid #000000;
+		padding: 5px;
+		box-sizing: border-box;
+
+	}
+
+	section.limitedSec article{
+		width: 663px;
+		margin-top: 50px;
+		margin: auto;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	section.limitedSec article p{
+		margin-top: 20px;
+		text-align: justify;
+		font-size: 13pt;
+	}
+
+
+	section.limitedSec h3{
+		text-align: center;
+		margin-top: 30px;
+		font-size: 25pt;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+
+	/* *** 2. Section *** */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		margin-top: 500px;
+	}
+
+	section.unlimitedSec div#menuContainer{
+		width: 700px;
+		height: 700px;
+		position: relative;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec div#menuContainer img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec div#menuContainer img:hover{
+		transform: scale(1.05);
+	}
+
+
+	section.unlimitedSec div#sebzeler h4{
+		line-height: 20px;
+		margin-left: 05px;
+		margin-top: 20px;
+		font-size: 25pt;
+		padding-top: 12px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+
+
+	/* *** 2.1. Section *** */
+
+	section.unlimitedSec2 {
+		width: 100%;
+		position: relative;
+		margin-top: 370px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2{
+		width: 700px;
+		height: 0px;
+		position: relative;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img:hover{
+		transform: scale(1.05);
+	}
+
+
+	/* *** 3. Section *** */
+
+	section.limitedSec2 div#teamContainer h3{
+		text-align: center;
+		margin-bottom: 5px; 
+		font-size: 25pt;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin:auto;
+	}
+
+	section.limitedSec2 div#teamContainer h2{
+		text-align: center; 
+		font-size: 15pt;
+
+	}
+
+	section.limitedSec2 div#teamContainer {
+		width: 700px;
+		height: 50px;
+		position: relative;
+		margin: auto;
+		margin-top: 350px;
+	}
+
+
+	section.limitedSec2 div#teamContainer div.teamTile{
+		width: 220px;
+		height: 320px;
+		position: relative;
+		float: left;
+		margin-left: 10px;
+		overflow: hidden;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile img{
+		width: 220px;
+		height: 320px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover{
+		width: 220px;
+		height: 320px;
+		background: red;
+		position: absolute;
+		top: -50px;
+		left: -220px;
+		transition: all .5s ease;
+		background: url(../Images/);
+		opacity: 0.7;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile:hover div.teamHover{
+		left: 0;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover div.teamText{
+		background: #000000;
+		color: #ffffff;
+		line-height: 40px;
+		margin-top: 202.5px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	/* *** 4. Section *** */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 782px;
+		height: 350px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 500px;
+		height: 350px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		color: #ffffff;
+		float: left;
+		text-align: center;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2{
+		color: #ffffff;
+		font-size: 25pt;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h3{
+		font-size: 15pt;
+		line-height: 30px;
+		margin: 30px;
+		margin-top: 20px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p{
+		font-family: 'Roboto', sans-serif;
+		width: 450px;
+		font-size: 14pt; 
+		line-height: 28px;
+		margin: auto;
+		margin-top: 20px;
+		text-shadow: 1px 1px 1px #000000;
+		font-weight: bold;
+	}
+
+	/* ** Hakkında Başlangıç **/
+
+	section.contentContainer {
+		width: 700px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	section.contentContainer h1 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		line-height: 20px; 
+	}
+
+	section.contentContainer div.managerBox {
+		width: 200px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img{
+		height: 300px;
+		margin: auto;
+	}
+
+	/* ** İletişim Başlangıç **/
+
+	section.contentContainer  div.contactParts{
+		width: 640px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 90px;
+	}
+
+	section.contentContainer  div.contactParts input.input{
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align:center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft{
+		float: left;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputRight{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft2 {
+		float: left;
+		border-radius: 10px;
+	}
+		
+	section.contentContainer  div.contactParts input.inputRight2{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts textarea {
+		width: 640px;
+		height: 200px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit {
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: #e74c3c;
+		color: #ffffff;
+		border: 1px solid #e74c3c;	
+	}
+
+	section.contentContainer iframe {
+		margin-top: 20px;
+		background: rgba(0,0,0,0.5);
+		position: relative;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+	}
+
+	/* ** YÖNETİM ** */
+
+	/* ** ÜRÜNLER ** */
+	section.contentContainer section.unlimitedSec div#menuContainer {
+		margin-top: 40px;
+	}
+
+	/* ** Footer Başlangıç ** */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../Images/footer-bg2.jpg);
+	}
+
+	footer div#footerContainer{
+		width: 700px;
+		position: relative;
+		margin: auto;
+		padding: 100px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 220px;
+		position: relative;
+		float: left;
+		text-align: center;
+		color: #ffffff;
+		margin-left: 10px;
+	}
+
+	footer div#footerContainer div.footerBox h1{
+		font-family: 'Charmonman', cursive;
+		font-size: 27pt;
+		margin-top: 35px;
+	}
+
+	footer div#footerContainer div.footerBox h2{
+		font-size: 20pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 220px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p{
+		text-align:left;
+		line-height: 30px;
+		width: 220px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input{
+		width: 220px;
+		height: 40px;
+		margin-top: 20px;
+		font-size: 15pt;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+
+	/* ** Header **/
+
+	header#mainHeader {
+		width: 100%;
+		height: 500px;
+		position: relative;
+		background: url(../images/header-bg8.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 460px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 460px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop{
+		width: 460px;
+		height: : 40px;
+		position: relative;
+	}
+
+	ul#ulTopLeft{
+	 	list-style-type: none;
+		display: inline-block;	
+	 	float: left;
+	 	display: none;
+	}
+
+	ul#ulTopLeft li{
+		display: inline-block;
+		line-height: 40px;
+		border-right: 1px solid #ffffff;
+		padding: 0 10px;
+	}
+
+	ul#ulTopLeft li:first-child{
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child{
+		border-right: 0;
+	}
+
+
+	ul#ulTopLeft li a{
+		color: #ffffff; 
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	div#topRight {
+		height: 40px;
+		position: relative;
+		text-align: center;
+		display: none;
+	}
+
+
+	/* ** Nav ** */
+
+	nav {
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		top: 40px;
+	}
+
+	div#navContainer {
+		width: 460px;
+		height: 60px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Charmonman', cursive;
+		color: #ffffff;
+		font-size: 30px;
+		line-height: 60px;
+		display: inline;
+		float: left;
+	}
+
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+
+	/* ** Desktop Nav
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a{
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover{
+		font-weight: bold;
+	}
+
+	div#headerText{
+		margin-top: 100px;
+		color: #ffffff;
+	}
+	*/
+
+	/* *** Nav Mobile *** */
+
+	div#navMobileButton {
+		width: 40px;
+		height: 40px;
+		position: relative;
+		float: right;
+		background: url(../Images/menu-icon.png);
+		margin-top: 10px;
+	}
+
+	div#navMobileButton:hover {
+		opacity: 0.7;
+	}
+
+	ul#ulNavMobile {
+		width: 460px;
+		position: absolute;
+		top: 60px;
+		background: transparent;
+		display: none;
+	}
+
+	ul#ulNavMobile li {
+		text-align: center;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+	}
+
+	ul#ulNavMobile li:last-child{
+		border: 0;
+	}
+
+	ul#ulNavMobile li a{
+		width: 460px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+
+	ul#ulNavMobile li a:hover{
+		opacity: 0.7
+	}
+
+	div#headerText {
+		height: 200px;
+		padding: 200px 0; 
+
+	}
+
+	div#headerText h1 {
+		line-height: 50px;
+		font-size: 25px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 40px;
+		font-size: 25px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 13px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 2px 2px 2px #000000;
+	}
+
+	div#headerButtons{
+		margin-top: 20px;
+	}
+
+	div#headerButtons a{
+		line-height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons a:first-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	div#headerButtons a:last-child{
+		margin-left: 20px;
+		color: #ffffff;
+	}
+
+	div#headerButtons a:last-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	/* *** Section Başlangıcı *** */
+
+	/* *** 1. Section *** */
+	section.limitedSec {
+		width: 460px;
+		height:600px;
+		position: relative;
+		margin: auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2{
+		text-align: center;
+	}
+
+	section.limitedSec img {
+		width: 450px;
+		margin-top: 50px;
+		border: 2px solid #000000;
+		padding: 5px;
+		box-sizing: border-box;
+
+	}
+
+	section.limitedSec article{
+		width: 440px;
+		margin-top: 50px;
+		margin: auto;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	section.limitedSec article p{
+		margin-top: 20px;
+		text-align: justify;
+		font-size: 13pt;
+	}
+
+
+	section.limitedSec h3{
+		text-align: center;
+		margin-top: 30px;
+		font-size: 25pt;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+
+	/* *** 2. Section *** */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		margin-top: 500px;
+	}
+
+	section.unlimitedSec div#menuContainer{
+		width: 500px;
+		height: 700px;
+		position: relative;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec div#menuContainer img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec div#menuContainer img:hover{
+		transform: scale(1.05);
+	}
+
+
+	section.unlimitedSec div#sebzeler h4{
+		line-height: 20px;
+		margin-left: 05px;
+		margin-top: 100px;
+		font-size: 25pt;
+		padding-top: 12px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+
+
+	/* *** 2.1. Section *** */
+
+	section.unlimitedSec2 {
+		width: 100%;
+		position: relative;
+		margin-top: 470px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2{
+		width: 500px;
+		height: 0px;
+		position: relative;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img:hover{
+		transform: scale(1.05);
+	}
+
+
+	/* *** 3. Section *** */
+
+	section.limitedSec2 div#teamContainer h3{
+		text-align: center;
+
+		font-size: 25pt;
+
+		margin-top: 50px;
+	}
+
+	section.limitedSec2 div#teamContainer h2{
+		text-align: center; 
+		font-size: 15pt;
+
+	}
+	section.limitedSec2 {
+		margin-top: 470px;
+	}
+
+	section.limitedSec2 div#teamContainer {
+		width: 460px;
+		height: 650px;
+		position: relative;
+		margin: auto;
+		margin-top: 350px;
+	}
+
+
+	section.limitedSec2 div#teamContainer div.teamTile{
+		width: 220px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		overflow: hidden;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile img{
+		width: 220px;
+		height: 280px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover{
+		width: 220px;
+		height: 320px;
+		background: red;
+		position: absolute;
+		top: -50px;
+		left: -220px;
+		transition: all .5s ease;
+		background: url(../Images/);
+		opacity: 0.7;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile:hover div.teamHover{
+		left: 0;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover div.teamText{
+		background: #000000;
+		color: #ffffff;
+		line-height: 40px;
+		margin-top: 202.5px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	/* *** 4. Section *** */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 460px;
+		height: 350px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 400px;
+		height: 350px;
+		background: rgba(0,0,0,0.5);
+		color: #ffffff;
+		margin: auto;
+		text-align: center;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2{
+		color: #ffffff;
+		font-size: 18pt;
+		margin-top: 25px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h3{
+		font-size: 13pt;
+		line-height: 20px;
+		margin: 30px;
+		margin-top: 15px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p{
+		font-family: 'Roboto', sans-serif;
+		width: 350px;
+		font-size: 12pt; 
+		line-height: 28px;
+		margin: auto;
+		margin-top: 20px;
+		text-shadow: 1px 1px 1px #000000;
+		font-weight: bold;
+	}
+
+	/* ** Hakkında Başlangıç **/
+
+	section.contentContainer {
+		width: 700px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	section.contentContainer h1 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		line-height: 20px; 
+	}
+
+	section.contentContainer div.managerBox {
+		width: 200px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img{
+		height: 300px;
+		margin: auto;
+	}
+
+	/* ** İletişim Başlangıç **/
+
+	section.contentContainer  div.contactParts{
+		width: 640px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 90px;
+	}
+
+	section.contentContainer  div.contactParts input.input{
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align:center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft{
+		float: left;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputRight{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft2 {
+		float: left;
+		border-radius: 10px;
+	}
+		
+	section.contentContainer  div.contactParts input.inputRight2{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts textarea {
+		width: 640px;
+		height: 200px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit {
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: #e74c3c;
+		color: #ffffff;
+		border: 1px solid #e74c3c;	
+	}
+
+	section.contentContainer iframe {
+		margin-top: 20px;
+		background: rgba(0,0,0,0.5);
+		position: relative;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+	}
+
+	/* ** YÖNETİM ** */
+
+	/* ** ÜRÜNLER ** */
+	section.contentContainer section.unlimitedSec div#menuContainer {
+		margin-top: 40px;
+	}
+
+	/* ** Footer Başlangıç ** */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../Images/footer-bg2.jpg);
+	}
+
+	footer div#footerContainer{
+		width: 350px;
+		position: relative;
+		margin: auto;
+		padding-left: 120px;
+		padding-top: 50px;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 270px;
+		position: relative;
+
+		text-align: center;
+		color: #ffffff;;
+	}
+
+
+	footer div#footerContainer div.footerBox h1{
+		font-family: 'Charmonman', cursive;
+		font-size: 27pt;
+		margin-top: 35px;
+	}
+
+	footer div#footerContainer div.footerBox h2{
+		font-size: 20pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 220px;
+		margin: auto;
+		text-align: center;
+	}
+
+	footer div#footerContainer div.footerBox h4{
+		font-size: 20pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 220px;
+		margin: auto;
+		text-align: center;
+	}
+
+	footer div#footerContainer div.footerBox p{
+		text-align:center;
+		line-height: 30px;
+		width: 220px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox h3{
+		text-align:left;
+		line-height: 30px;
+		width: 220px;
+		margin: auto;
+		margin-left: 10px;
+	}
+
+	footer div#footerContainer div.footerBox input{
+		width: 220px;
+		height: 40px;
+		margin-top: 10px;
+		font-size: 15pt;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+	/* ** Header **/
+
+	header#mainHeader {
+		width: 100%;
+		height: 400px;
+		position: relative;
+		background: url(../images/header-bg8.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 300px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop{
+		width: 300px;
+		height: : 40px;
+		position: relative;
+	}
+
+	ul#ulTopLeft{
+	 	list-style-type: none;
+		display: inline-block;	
+	 	float: left;
+	 	display: none;
+	}
+
+	ul#ulTopLeft li{
+		display: inline-block;
+		line-height: 40px;
+		border-right: 1px solid #ffffff;
+		padding: 0 10px;
+	}
+
+	ul#ulTopLeft li:first-child{
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child{
+		border-right: 0;
+	}
+
+
+	ul#ulTopLeft li a{
+		color: #ffffff; 
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	div#topRight {
+		height: 40px;
+		position: relative;
+		text-align: center;
+		display: none;
+	}
+
+
+	/* ** Nav ** */
+
+	nav {
+		width: 100%;
+		height: 60px;
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		top: 40px;
+	}
+
+	div#navContainer {
+		width: 300px;
+		height: 50px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Charmonman', cursive;
+		color: #ffffff;
+		font-size: 30px;
+		line-height: 50px;
+		display: inline;
+		float: left;
+	}
+
+	ul#ulNavRight{
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+
+	/* ** Desktop Nav
+	ul#ulNavRight li{
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a{
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover{
+		font-weight: bold;
+	}
+
+	div#headerText{
+		margin-top: 100px;
+		color: #ffffff;
+	}
+	*/
+
+	/* *** Nav Mobile *** */
+
+	div#navMobileButton {
+		width: 40px;
+		height: 40px;
+		position: relative;
+		float: right;
+		background: url(../Images/menu-icon.png);
+		margin-top: 5px;
+	}
+
+	div#navMobileButton:hover {
+		opacity: 0.7;
+	}
+
+	ul#ulNavMobile {
+		width: 300px;
+		position: absolute;
+		top: 50px;
+		background: transparent;
+		display: none;
+	}
+
+	ul#ulNavMobile li {
+		text-align: center;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+	}
+
+	ul#ulNavMobile li:last-child{
+		border: 0;
+	}
+
+	ul#ulNavMobile li a{
+		width: 300px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+
+	ul#ulNavMobile li a:hover{
+		opacity: 0.7
+	}
+
+	div#headerText {
+		height: 200px;
+		padding: 200px 0; 
+
+	}
+
+	div#headerText h1 {
+		line-height: 40px;
+		font-size: 20px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 40px;
+		font-size: 20px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		font-size: 13px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 2px 2px 2px #000000;
+	}
+
+	div#headerButtons{
+		margin-top: 20px;
+	}
+
+	div#headerButtons a{
+		line-height: 35px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons a:first-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	div#headerButtons a:last-child{
+		margin-left: 20px;
+		color: #ffffff;
+	}
+
+	div#headerButtons a:last-child:hover{
+		background: transparent;
+		filter: opacity(50%);
+	}
+
+	/* *** Section Başlangıcı *** */
+
+	/* *** 1. Section *** */
+	section.limitedSec {
+		width: 300px;
+		height: 600px;
+		position: relative;
+		margin: auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2{
+		text-align: center;
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+	section.limitedSec img {
+		width: 300px;
+		margin-top: 50px;
+		border: 2px solid #000000;
+		padding: 5px;
+		box-sizing: border-box;
+
+	}
+
+	section.limitedSec article{
+		width: 300px;
+		margin-top: 50px;
+		margin: auto;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	section.limitedSec article p{
+		margin-top: 20px;
+		text-align: justify;
+		font-size: 13pt;
+	}
+
+
+	section.limitedSec h3{
+		text-align: center;
+		margin-top: 30px;
+		font-size: 25pt;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+
+	/* *** 2. Section *** */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		margin-top: 500px;
+	}
+
+	section.unlimitedSec div#menuContainer{
+		width: 500px;
+		height: 700px;
+		position: relative;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec div#menuContainer img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec div#menuContainer img:hover{
+		transform: scale(1.05);
+	}
+
+
+	section.unlimitedSec div#sebzeler h4{
+		line-height: 20px;
+		margin-left: 05px;
+		margin-top: 100px;
+		font-size: 25pt;
+		padding-top: 12px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+
+
+	/* *** 2.1. Section *** */
+
+	section.unlimitedSec2 {
+		width: 100%;
+		position: relative;
+		margin-top: 470px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2{
+		width: 500px;
+		height: 0px;
+		position: relative;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		margin: auto;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img{
+		width: 200px ;
+		height: 200px;
+		margin-right: 10px; 
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		transition: all .2s ease-in-out;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	section.unlimitedSec2 div#menuContainer2 img:hover{
+		transform: scale(1.05);
+	}
+
+
+	/* *** 3. Section *** */
+
+	section.limitedSec2 div#teamContainer h3{
+		text-align: center;
+		font-size: 25pt;
+		margin-top: 50px;
+	}
+
+	section.limitedSec2 div#teamContainer h2{
+		text-align: center; 
+		font-size: 15pt;
+
+	}
+	section.limitedSec2 {
+		margin-top: 470px;
+	}
+
+	section.limitedSec2 div#teamContainer {
+		width: 300px;
+		height: 650px;
+		position: relative;
+		margin: auto;
+		margin-top: 350px;
+	}
+
+
+	section.limitedSec2 div#teamContainer div.teamTile{
+		width: 220px;
+		height: 320px;
+		position: relative;
+		margin: auto;
+		overflow: hidden;
+		margin-top: 30px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile img{
+		width: 220px;
+		height: 320px;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover{
+		width: 220px;
+		height: 320px;
+		background: red;
+		position: absolute;
+		top: -50px;
+		left: -220px;
+		transition: all .5s ease;
+		background: url(../Images/);
+		opacity: 0.7;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile:hover div.teamHover{
+		left: 0;
+	}
+
+	section.limitedSec2 div#teamContainer div.teamTile div.teamHover div.teamText{
+		background: #000000;
+		color: #ffffff;
+		line-height: 40px;
+		margin-top: 202.5px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	/* *** 4. Section *** */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 300px;
+		height: 250px;
+		
+		background: rgba(0,0,0,0.5);
+		color: #ffffff;
+		margin: auto;
+		text-align: center;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2{
+		color: #ffffff;
+		font-size: 18pt;
+		margin-top: 25px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h3{
+		font-size: 14pt;
+		line-height: 20px;
+		margin: 30px;
+		margin-top: 15px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p{
+		font-family: 'Roboto', sans-serif;
+		width: 350px;
+		font-size: 10pt; 
+		line-height: 28px;
+		margin: auto;
+		margin-top: 20px;
+		text-shadow: 1px 1px 1px #000000;
+		font-weight: bold;
+	}
+
+	/* ** Hakkında Başlangıç **/
+
+	section.contentContainer {
+		width: 700px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	section.contentContainer h1 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		line-height: 20px; 
+	}
+
+	section.contentContainer div.managerBox {
+		width: 200px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img{
+		height: 300px;
+		margin: auto;
+	}
+
+	/* ** İletişim Başlangıç **/
+
+	section.contentContainer  div.contactParts{
+		width: 640px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 90px;
+	}
+
+	section.contentContainer  div.contactParts input.input{
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align:center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft{
+		float: left;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputRight{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.inputLeft2 {
+		float: left;
+		border-radius: 10px;
+	}
+		
+	section.contentContainer  div.contactParts input.inputRight2{
+		float: right;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts textarea {
+		width: 640px;
+		height: 200px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit {
+		width: 310px;
+		height: 40px;
+		position: relative;
+		border: 1px solid #95a9a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer  div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: #e74c3c;
+		color: #ffffff;
+		border: 1px solid #e74c3c;	
+	}
+
+	section.contentContainer iframe {
+		margin-top: 20px;
+		background: rgba(0,0,0,0.5);
+		position: relative;
+	}
+
+	section.contentContainer  div.contactParts h2{
+		text-align: center;
+	}
+
+	/* ** YÖNETİM ** */
+
+	/* ** ÜRÜNLER ** */
+	section.contentContainer section.unlimitedSec div#menuContainer {
+		margin-top: 40px;
+	}
+
+	/* ** Footer Başlangıç ** */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../Images/footer-bg2.jpg);
+	}
+
+	footer div#footerContainer{
+		width: 350px;
+		position: relative;
+		margin: auto;
+		padding-left: 120px;
+		padding-top: 50px;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 270px;
+		position: relative;
+
+		text-align: center;
+		color: #ffffff;;
+	}
+
+
+	footer div#footerContainer div.footerBox h1{
+		font-family: 'Charmonman', cursive;
+		font-size: 27pt;
+	}
+
+	footer div#footerContainer div.footerBox h2{
+		font-size: 20pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 220px;
+		margin: auto;
+		text-align: center;
+	}
+
+	footer div#footerContainer div.footerBox h4{
+		font-size: 20pt;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 220px;
+		margin: auto;
+		text-align: center;
+	}
+
+	footer div#footerContainer div.footerBox p{
+		text-align:center;
+		line-height: 30px;
+		width: 220px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox h3{
+		text-align:left;
+		line-height: 30px;
+		width: 220px;
+		margin: auto;
+		margin-left: 10px;
+	}
+
+	footer div#footerContainer div.footerBox input{
+		width: 220px;
+		height: 40px;
+		margin-top: 20px;
+		font-size: 15pt;
+		margin-left: 20px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+}
